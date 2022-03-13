@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 10vh;
+}
+
+.btn {
+  font-size: 3vh;
+}
+
+#joke-content {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4vh;
+  overflow: auto;
+  width: 80%;
+  margin: 20vh;
+}
+
+@media screen and (max-width: 800px) {
+  #joke-content {
+    font-size: 5vh;
+    margin: 3vh;
+    width: 95%;
+  }
+
+  .btn {
+    font-size: 2vh;
+  }
+}
